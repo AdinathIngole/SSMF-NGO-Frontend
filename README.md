@@ -2,9 +2,9 @@
 # SSMF-NGO-Frontend
 It is a NGO Frontend Using React js  Project .
 =======
-# The Sanjivani NGO - ReactJS & SpringBoot Project
+# The Sant Sevalal Maharaj Foundation NGO - ReactJS & SpringBoot Project
 
-This project is a web application for The Sanjivani NGO. It's built using **ReactJS**, **Axios**, and **Bootstrap**.
+This project is a web application for The Sant Sevalal Maharaj Foundation NGO. It's built using **ReactJS**, **Axios**, and **Bootstrap**.
 
 ## Features
 
@@ -17,20 +17,20 @@ This project is a web application for The Sanjivani NGO. It's built using **Reac
 ## Tech Stack
 
 - **ReactJS**: A JavaScript library for building user interfaces.
-- **Axios**: A promise-based HTTP client for the browser and node.js.
+- **Axios**: A promise-based HTTP client for the browser.
 - **Bootstrap**: The world's most popular front-end open-source toolkit.
-- **SrpingBoot**: Backend repo: `https://github.com/bhaveshpatil07/The-Sanjivani-NGO-Server`.
+- **SrpingBoot**: Backend repo: `https://github.com/AdinathIngole/SSMF-NGO.git`.
 
 ## Getting Started
 
 Clone the repository:
 ```bash
-git clone https://github.com/bhaveshpatil07/The-Sanjivani-NGO-ReactJs
+git clone https://github.com/AdinathIngole/SSMF-NGO-Frontend.git
 ```
 ##### Move to the desired folder:
 
 ```bash
-cd sanjivani
+cd project folder
 ```
 
 ##### Install the dependencies:
