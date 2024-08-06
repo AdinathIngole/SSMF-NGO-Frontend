@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    background: linear-gradient(109.6deg, rgb(1, 24, 54) 11.2%, rgba(0, 37, 84, 0.8) 100.2%);
+    color: #f9f3f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    color: #f9f3f3;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+    color: #eee;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+}
+
+.image-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.image-card h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.image-card p {
+    text-align: center;
+    color: #fbf5f5;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.policy-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+}
+
+.policy-section h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.policy-section .content {
+    color: #f9f3f3;
+    margin-top: 10px;
+}
+
+.content-container {
+    margin-top: 150px; /* Adjust the value as needed to position below the navbar */
+    padding: 20px;
+}

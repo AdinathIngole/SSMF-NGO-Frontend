@@ -1,0 +1,20 @@
+/* src/css/PolicyStyles.css */
+
+.policy-section {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.policy-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.policy-content {
+  font-size: 16px;
+  line-height: 1.5;
+}

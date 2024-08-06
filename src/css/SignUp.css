@@ -1,0 +1,128 @@
+/* SignUp specific styles */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  margin-top: 200px;
+  background: transparent;
+}
+
+.signup-image {
+  flex: 1;
+  text-align: center;
+}
+
+.signup-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-description {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.signup-form {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  /* background-color: white; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-right: 100px;
+  background: transparent;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form label {
+  margin-bottom: 5px;
+}
+
+.signup-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+.signup-form p {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.loginbtn {
+  color:gold;
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding:5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.loginbtn:hover {
+  color: #f3f6f9;
+}
+.image-description{
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .signup-container {
+    margin-top: 8vh;
+    padding: 10px;
+  }
+
+  .signup-image,
+  .signup-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .signup-container {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+
+  .signup-image,
+  .signup-form {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .signup-form {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,88 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  margin-top: 250px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.headertwo{
+  margin-top: 180px;
+  color: #FDBE33;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 200px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  color: white;
+
+}
+
+.btn {
+  display: block;
+  width: 100%;
+}
+
+input::placeholder, 
+textarea::placeholder {
+  color: rgba(255, 255, 255, 1); /* Set the placeholder text color to white and fully opaque */
+  opacity: 1; /* Ensures the placeholder text is fully opaque */
+}
+input, 
+textarea {
+  color: white !important;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+input[type="file"] {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .container {
+      padding: 15px;
+      border-radius: 15px;
+  }
+
+  /* h2 {
+      font-size: 24px;
+  } */
+  .headertwo{
+    color: #FDBE33;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* h2 {
+    font-size: 24px;
+} */
+.headertwo{
+  color: #FDBE33;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+}
